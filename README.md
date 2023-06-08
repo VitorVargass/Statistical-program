@@ -15,4 +15,4 @@ Olá, fiz esse programa onde você digita um conjuntos de dados que no caso seri
 • Determinar se o conjunto de dados é homogêneo ou heterogêneo (utilizando 
 como padrão 30%)
 
-Esse programa foi usado HTML e CSS para fazer a interface para o usuario e por debaixo dos panos(backend) foi usado JavaScript onde foram usadas funçoes para tipo de calculo. 
+Esse programa foi usado HTML e CSS para fazer a interface para o usuario e por debaixo dos panos(backend) foi usado JavaScript onde foram usadas funçoes para cada tipo de calculo. 
