@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Righteous&display=swap');
+
+body {
+    font-family: 'Righteous';
+
+    background: linear-gradient( 90deg, #9CC4E4, #E9F2F9);
+    margin: 0;
+    padding: 0;
+}
+.title {
+font-size: 64px;
+text-align: center;
+}
+.subtitle {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 88px;
+}
+.receiver {
+    margin-top: 25px;
+    width: 607px;
+    height: 79px;
+    border: 1px solid #000000;
+    text-align: center;
+    font-size: 60px;
+
+}
+.move-receiver {
+    display: flex;
+    justify-content: center;
+}
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    
+}
+.names {
+    color: #FFFF;
+    font-size: 36px;
+    background:#1B325F;
+    width: 193px;
+    height: 64px;
+    border-radius: 3px;
+    border: solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inputs {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 38px;
+    height: 80px;
+    
+}
+.font-inputs {
+    font-size: 60px;
+    max-width: 193px;
+}
+.move-button {
+    display :flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.button {
+    font-family: 'Anton';
+    color: #FFFF;
+    font-size: 64px;
+    width: 432px;
+    height: 97px;
+    background: #1B325F;
+    border-radius: 50px;
+    border: solid #000000;
+}
+.button:hover {
+    transform: scale(1.2);
+    transition: all 0.5s
+}
