@@ -4,7 +4,6 @@
 
 body {
     font-family: 'Righteous';
-
     background: linear-gradient( 90deg, #9CC4E4, #E9F2F9);
     margin: 0;
     padding: 0;
@@ -78,5 +77,70 @@ text-align: center;
 }
 .button:hover {
     transform: scale(1.2);
-    transition: all 0.5s
+    transition: all 0.5s;
+}
+@media (max-width:1024px) {
+    .font-inputs, .names {
+        max-width: 150px;
+        max-height: 50px;
+        font-size: 20px;
+        padding: 0px;
+    }
+    .inputs, .boxes {
+        margin-top: 40px;
+    }
+}
+@media (max-width:768px) {
+    
+    .font-inputs, .names {
+        max-height: 50px;
+        max-width: 100px;
+        font-size: 19px;
+    }
+    .move-button{
+     margin-top: 40px;
+    }
+    .button {
+        max-width: 250px;
+        font-size: 48px;
+    }
+    .boxes {
+        margin-top: 20px;
+    }
+    .receiver {
+        max-width: 500px;
+        max-height: 65px;
+        font-size: 30px;
+    }
+    .subtitle {
+        font-size: 34px;
+        margin-top: 0px;
+    }
+}
+@media (max-width:425px) {
+    .title {
+        font-size:48px;
+    }
+    .subtitle {
+        font-size: 28px;
+    }
+    .receiver {
+        max-width: 300px;
+        max-height: 50px;
+    }
+    .names, .font-inputs {
+        max-width: 60px;
+        max-height: 40px;
+        font-size: 10px;
+    }
+    .inputs {
+        margin-top:20px;
+    }
+    .move-button {
+        margin-top: 0px;
+    }
+    .button {
+        max-width: 200px;
+        font-size: 40px;
+    }
 }
